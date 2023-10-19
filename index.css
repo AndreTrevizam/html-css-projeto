@@ -1,22 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fundo do site*/
 body {
-    background-color: grey;
-}
-
-hr{
-    background-color: white;
-}
-
-.faixa{
-    
-    width: 1800px;
-	height: 250px;
-	border-radius: 0%;
-	border: 1px solid #000;
-	margin: auto;
-	text-align: center;
-    background-color: #000;
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif
+}
 
+/*texto contato, servicos, etc*/
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+}
+
+/*texto tambem*/
+li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    margin: 23px;
+}
+
+/*link*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*foto logo*/
+img{
+   display: flex;
+   margin: 9px;
+   height: 120px;
+   width: 120px;
+   border-radius: 100px;
+   margin-left: 550px;
+}
+
+
+/*faixa horizontal*/
+header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+}
+
+.iconelocal{
+    display: flex;
+    margin: 9px;
+    height: 10px;
+    width: 10px;
 }
