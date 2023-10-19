@@ -1,3 +1,22 @@
 body {
-    background-color: aqua;
+    background-color: grey;
+}
+
+hr{
+    background-color: white;
+}
+
+.faixa{
+    
+    width: 1800px;
+	height: 250px;
+	border-radius: 0%;
+	border: 1px solid #000;
+	margin: auto;
+	text-align: center;
+    background-color: #000;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
 }
