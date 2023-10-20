@@ -9,16 +9,17 @@
 body {
     color: white;
     background-color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 /*texto contato, servicos, etc*/
 ul {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
+    margin-right: 400px;
+
 }
 
 /*texto tambem*/
@@ -26,7 +27,7 @@ li{
     color: white;
     list-style-type: none;
     cursor: pointer;
-    padding-left: 2rem;
+    padding-left: 3rem;
     margin: 23px;
 }
 
@@ -36,15 +37,9 @@ a{
     color: white;
 }
 
-.pin{
-    height: 30px;
-    width: 30px;
-    margin: 50px;
-}
-
+/*texto no cabeçalho*/
 .top{
     margin-left: auto;
-
 }
 
 .cabecalho{
@@ -54,29 +49,21 @@ a{
     align-items: center;
 }
 
-.imagenssite{
-    justify-content: space-between;
-    display: flex;
-}
-
-
-img{
+/*logo jandosa*/
+.logoreal{
     display: flex;
     margin: 9px;
     height: 120px;
     width: 120px;
     border-radius: 100px;
-    margin-left: 650px;
+    margin-left: 350px;
+    border-style: solid;
+    border-color: red;
  }
+/*logo jandosa fim NAO MEXER PQ DEMOROU PRA FUNCIONAR*/
 
- #imagem_pin{
+.bannerservicos{
     display: flex;
-    align-items: center;
-    margin-left: 8em;
-   
- }
-
- h2{
-    font-size: 12px;
-    margin: -40px;
- }
+    background-image: url("foto-mecanico-SERVICOS.jpg");
+    border: 0;
+}
