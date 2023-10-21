@@ -58,14 +58,9 @@ a{
     border-radius: 100px;
     margin-left: 350px;
     border-style: solid;
-    border-color: red;
+    border-color: #ef1217;
  }
 /*logo jandosa fim NAO MEXER PQ DEMOROU PRA FUNCIONAR*/
 
-.bannerservicos{
-    display: flex;
-    background-image: url("foto-mecanico-SERVICOS.jpg");
-    border: 0;
-}
 
 /*FIM DO CSS DO CABEÇALHO*/
