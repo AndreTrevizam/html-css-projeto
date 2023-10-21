@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* CSS DO CABEÇALHO CUIDADO!*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fundo do site*/
+body {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*texto contato, servicos, etc*/
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    margin-right: 400px;
+
+}
+
+/*texto tambem*/
+li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 3rem;
+    margin: 23px;
+}
+
+/*link*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*texto no cabeçalho*/
+.top{
+    margin-left: auto;
+}
+
+.cabecalho{
+    position: relative;
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+}
+
+/*logo jandosa*/
+.logoreal{
+    display: flex;
+    margin: 9px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    margin-left: 350px;
+    border-style: solid;
+    border-color: red;
+ }
+/*logo jandosa fim NAO MEXER PQ DEMOROU PRA FUNCIONAR*/
+
+.bannerservicos{
+    display: flex;
+    background-image: url("foto-mecanico-SERVICOS.jpg");
+    border: 0;
+}
+
+/*FIM DO CSS DO CABEÇALHO*/
