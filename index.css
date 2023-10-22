@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,7 @@ ul {
 }
 
 /*texto tambem*/
-li{
+li {
     color: white;
     list-style-type: none;
     cursor: pointer;
@@ -33,17 +33,17 @@ li{
 }
 
 /*link*/
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
 /*texto no cabeçalho*/
-.top{
+.top {
     margin-left: auto;
 }
 
-.cabecalho{
+.cabecalho {
     position: relative;
     display: flex;
     background-color: rgb(15, 15, 15);
@@ -51,7 +51,7 @@ a{
 }
 
 /*logo jandosa*/
-.logoreal{
+.logoreal {
     display: flex;
     margin: 9px;
     height: 120px;
@@ -60,11 +60,12 @@ a{
     margin-left: 350px;
     border-style: solid;
     border-color: #ef1217;
- }
+}
+
 /*logo jandosa fim NAO MEXER PQ DEMOROU PRA FUNCIONAR*/
 
 /*SLIDES*/
-.slides{
+.slides {
     height: 70vh;
     width: 95%;
     overflow: hidden;
@@ -73,7 +74,8 @@ a{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-left: 50px;
 }
-.slide{
+
+.slide {
     position: absolute;
     height: 100%;
     opacity: 0;
@@ -81,40 +83,43 @@ a{
     animation: slide-show 12s infinite;
 }
 
-.slide-2{
+.slide-2 {
     animation-delay: 4s;
 }
 
-.slide-3{
+.slide-3 {
     animation-delay: 8s;
 }
 
-.slide img{
+.slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-@keyframes slide-show{
-    0%{
+@keyframes slide-show {
+    0% {
         opacity: 0;
     }
-    10%{
+
+    10% {
         opacity: 1;
     }
+
     20%,
-    30%{
+    30% {
         opacity: 1;
         scale: 1.03;
     }
-    50%{
+
+    50% {
         opacity: 0;
     }
 }
 
 /*TITULO ESPECIALIZADA NO SEU CARRO*/
-.titulo-especializada{
+.titulo-especializada {
     text-align: center;
     color: #ef1217;
     margin-top: 85px;
@@ -123,7 +128,7 @@ a{
 
 /*galeria de imagens*/
 
-.galeria{
+.galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -134,54 +139,55 @@ a{
     transition: 1s;
 }
 
-.galeria-imagem img{
+.galeria-imagem img {
     padding: 10px;
     transition: 0.5s ease;
 }
 
-.galeria:hover img:hover{
-    transform: scale(1.1);        /*efeito ao passar o cursor sobre*/
+.galeria:hover img:hover {
+    transform: scale(1.1);
+    /*efeito ao passar o cursor sobre*/
     z-index: 2;
 }
 
 /*footer*/
-section{
+section {
     padding: 30px 13% 50px;
 }
 
-.footer{
+.footer {
     display: flex;
     gap: 2.5rem;
     background-color: #000;
 }
 
-.footer-content h4{
+.footer-content h4 {
     font-size: 20px;
     margin: 5px;
 }
 
-.footer-content p{
+.footer-content p {
     margin: 5px;
 }
 
-.icons a{
+.icons a {
     margin-top: 5px;
-  position: relative;
-  display: inline-block;
-  font-size: 17px;
-  font-weight: 800;
-  color: white;
-  overflow: hidden;
-  background: linear-gradient(to right, #ef1217, #ef1217 50%, #ffffff 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
-  justify-content: space-between;
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(to right, #ef1217, #ef1217 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    justify-content: space-between;
 }
 
 .icons a:hover {
     background-position: 0 100%;
-  }
+}
