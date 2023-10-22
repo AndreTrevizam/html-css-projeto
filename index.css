@@ -19,7 +19,7 @@ ul {
     display: flex;
     list-style-type: none;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     margin-right: 400px;
 
 }
@@ -30,7 +30,6 @@ li{
     list-style-type: none;
     cursor: pointer;
     padding-left: 3rem;
-    margin: 23px;
 }
 
 /*link*/
@@ -133,7 +132,6 @@ a{
     margin: 370px;
     margin-top: 50px;
     transition: 1s;
-    overflow: hidden;
 }
 
 .galeria-imagem img{
@@ -141,7 +139,49 @@ a{
     transition: 0.5s ease;
 }
 
-.galeria:hover{
+.galeria:hover img:hover{
     transform: scale(1.1);        /*efeito ao passar o cursor sobre*/
     z-index: 2;
 }
+
+/*footer*/
+section{
+    padding: 30px 13% 50px;
+}
+
+.footer{
+    display: flex;
+    gap: 2.5rem;
+    background-color: #000;
+}
+
+.footer-content h4{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.footer-content p{
+    margin: 5px;
+}
+
+.icons a{
+    margin-top: 5px;
+  position: relative;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 800;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(to right, #ef1217, #ef1217 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  justify-content: space-between;
+}
+
+.icons a:hover {
+    background-position: 0 100%;
+  }
