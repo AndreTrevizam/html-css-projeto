@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/* CSS DO CABEÇALHO CUIDADO!*/
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
 /*fundo do site*/
 body {
+    margin: 0;
+    padding: 0;
     color: white;
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
@@ -17,32 +19,64 @@ ul {
     display: flex;
     list-style-type: none;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     margin-right: 400px;
 
 }
 
 /*texto tambem*/
-li{
+li {
     color: white;
     list-style-type: none;
     cursor: pointer;
     padding-left: 3rem;
-    margin: 23px;
 }
 
 /*link*/
-a{
+a {
     text-decoration: none;
-    color: white;
 }
 
 /*texto no cabeçalho*/
-.top{
+.top {
     margin-left: auto;
+    margin-top: 5px;
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(to right, #ef1217, #ef1217 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
 }
 
-.cabecalho{
+.top a{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(to right, #ef1217, #ef1217 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.top a:hover{
+    justify-content: space-between;
+    background-position: 0 100%;
+}
+
+.cabecalho {
     position: relative;
     display: flex;
     background-color: rgb(15, 15, 15);
@@ -50,7 +84,7 @@ a{
 }
 
 /*logo jandosa*/
-.logoreal{
+.logoreal {
     display: flex;
     margin: 9px;
     height: 120px;
@@ -59,8 +93,6 @@ a{
     margin-left: 350px;
     border-style: solid;
     border-color: #ef1217;
- }
+}
+
 /*logo jandosa fim NAO MEXER PQ DEMOROU PRA FUNCIONAR*/
-
-
-/*FIM DO CSS DO CABEÇALHO*/
