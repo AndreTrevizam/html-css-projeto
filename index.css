@@ -184,13 +184,41 @@ a {
     z-index: 2;
 }
 
+/*PATROCINIOS*/
+
+.row{
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row h1{
+    margin-left: 100px;
+    display: flex;
+    padding: 10px;
+
+}
+
+.column{
+    margin: 10px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 10px;
+    
+}
+.column img{
+    background-color: #ccc;
+    width: 150px;
+    height: 140px;   
+}
+
 /*footer*/
 section {
     padding: 30px 13% 50px;
 }
 
 .footer {
-    display: flex;
+    
     gap: 2.5rem;
     background-color: #000;
 }
@@ -228,15 +256,3 @@ section {
 }
 
 /*PATROCINIOS*/
-
-.row{
-    float: left;
-    background-color: #ccc;
-    padding: 3px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
