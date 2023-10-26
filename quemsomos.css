@@ -190,3 +190,17 @@ section {
 }
 
 /*PATROCINIOS*/
+
+.imagem-direita{
+    display:inline-block;
+    vertical-align:top;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.texto-lado-da-imagem{
+    display:inline-block;
+    color: #000;
+    margin-top: 150px;
+}
