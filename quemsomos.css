@@ -219,11 +219,13 @@ section {
 /*PATROCINIOS*/
 
 .imagem-direita{
+    margin-top: 20px;
     display:inline-block;
     vertical-align:top;
     width: 50%;
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 .texto-lado-da-imagem{
