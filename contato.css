@@ -216,3 +216,12 @@ section {
 }
 
 /*PATROCINIOS*/
+
+/*endereço footer*/
+.icon-endereco{
+    margin: 5px;
+}
+
+.icon-endereco h4{
+    font-size: 20px;
+}

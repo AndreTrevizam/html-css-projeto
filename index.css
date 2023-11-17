@@ -308,6 +308,6 @@ section {
     margin: 5px;
 }
 
-.icon-endereco p{
-    margin: 5px;
+.icon-endereco h4{
+    font-size: 20px;
 }
