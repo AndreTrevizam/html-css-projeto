@@ -302,4 +302,12 @@ section {
 .icons a:hover {
     background-position: 0 100%;
 }
-/*PATROCINIOS*/
+
+/*endereço footer*/
+.icon-endereco{
+    margin: 5px;
+}
+
+.icon-endereco p{
+    margin: 5px;
+}
