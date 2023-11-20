@@ -128,8 +128,8 @@ a {
 
 
 .container{
-    height: 800px;
-    width:100vw;
+    height: auto;
+    width:90vw;
     display: column;
     align-items: center;
     justify-content: center;
@@ -146,6 +146,8 @@ a {
 
 .conteudo {
     width:20%;
+
+    
 }
 
 ul{
@@ -156,20 +158,25 @@ ul{
 li{
     list-style:none;
     margin-bottom: 3px;
-    color: #000;
+    color: #c0c0c0;
 
 }
 li::before{
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOxJREFUSEvt1E1KA0EUReEvoGswoqDoKiT4sw43ILgAt+HIiTOXoia4CUUFBV2FcqEDTUN3Kp1k1jVqmuKe986rqpENr9GG8w2AhYYHRXNFO7jEbdPZOhTt4hnHuMJ9HbIqYA9POMIrTvGzLkDCZzhoCw+obwf18A+cNCufd9EFuMEDfhuDq2t5wwW+2i5EG+Aad0jAOb6rgH1MKy3vOOsK71I0xgsO8YkJtvBYhUdLBtpaeYmiVJvAnJBUu438K6q8BJA9CcwZTydZxZWXAuqQfBdp6XMP0sFfNY+FL2gfwFKhA2ApXX3fomLIP6n3Jxno6gpUAAAAAElFTkSuQmCC);
+    
 }
 
 .titulo::before{
-    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVNJREFUSEvd1atLLVEcxfHPCQaLQXxcBIMWBZMgWORi8AH+CWK2ieIz2EXBy70Y/BsMBqsvRESwiEXEpFHUIFhuuOHKlnNgzjg6e9BTnLaZtdZ377V/w5TU+CnVON/3BYxiCQOoy6nxH06wiv20NquidlyioeD9PKMbd0lfFuAPprGDcfzNAdVjG2P4jdk8QNjBj3I9p5Gn+Inj8u7bPgL04wz3ZUhk/us0ho21og/nFWO6ojUs4hfmY9PLug1MYQXLWYBe7KGpYHBa/ogwhRfhRfIE1+j6ZHjFfoWeNOD/F4VXtZM8QQUQRm0dC5iJhIbRDvc2l/C8ZmcBGvGEZjxEAloQuk963gVMYgsT2IwEZHneBURm5sreAG7QkWuLE9yiM30HI9iN8+eqhnCYBoR1clSL/owyvemQmgOOMIgDDOcWUS3I9BatoSCz+kMrbI4xvAB3iToZrq6P1QAAAABJRU5ErkJggg==);
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdlUEKwjAQRV9A71HvYAV37Um0J1FPop6k3QnWO+hBKpWgCWmTmhFU0G4zfx7/ZyZVfPhTH+7PnwJqyBQsWlgKI6waKOZw6dd7ER0gGcFZ2NiWtXC5Qt6HeIAaVsAaqFLIJaAaSiDTuhQ2riYEaB8FeQqVEKCbl9rFDCaDABNPqDAGOsJZQdLAxI2p48CJx7MaA5xg+xiKjtYC9ORom7FGsXPtXkFh4rUAYzHWQHhuB8R1YC5X2ON5Wcr9lfAACnZTKJz7iAJDmkGAmYJXFi6kGQToZWlgP4bVC0+Fp3kGiEYiKfAA75wid1Hfvgf9Z6a/yXZUjUVJHLqmhqD2uwDnHsRPtXE4pP39f/INOZBlGQOjMK4AAAAASUVORK5CYII=);
     margin-right:3px;
     padding:1px;
 }
 
-
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+}
 
 
 /*PATROCINIOS*/
