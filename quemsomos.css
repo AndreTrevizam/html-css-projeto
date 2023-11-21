@@ -219,15 +219,26 @@ section {
 /*PATROCINIOS*/
 
 .imagem-direita{
+    margin-top: 20px;
     display:inline-block;
     vertical-align:top;
     width: 50%;
     text-align: center;
     margin-bottom: 50px;
+    
 }
 
 .texto-lado-da-imagem{
     display:inline-block;
     color: #000;
     margin-top: 150px;
+}
+
+/*endereço footer*/
+.icon-endereco{
+    margin: 5px;
+}
+
+.icon-endereco h4{
+    font-size: 20px;
 }
