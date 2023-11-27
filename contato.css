@@ -229,9 +229,9 @@ section {
 
 .conteudo-formulario{
     display: grid;
-            place-items: center; /* Centraliza tanto horizontal quanto verticalmente */
-            height: 50vh; /* Centraliza verticalmente */
-    
+    place-items: center; /* Centraliza tanto horizontal quanto verticalmente */
+    height: 50vh; /* Centraliza verticalmente */
+    margin-bottom: 300px;
 }
 
 
