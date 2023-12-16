@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -15,13 +16,12 @@ body {
 }
 
 /*texto contato, servicos, etc*/
-.ultop {
+ul {
     display: flex;
     list-style-type: none;
     align-items: center;
-    padding: 0px;
+    padding: 10px;
     margin-right: 400px;
-
 }
 
 /*texto tambem*/
@@ -124,61 +124,6 @@ a {
 
 /*logo jandosa fim NAO MEXER PQ DEMOROU PRA FUNCIONAR*/
 
-/* aqui começa main*/
-
-
-.container{
-    height: auto;
-    width:90vw;
-    display: column;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-}
-
-.quadrado {
-    height: 50%;
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
-}
-
-.conteudo {
-    width:20%;
-
-    
-}
-
-ul{
-    padding: 1px;
-    color: #000;
-    
-}
-li{
-    list-style:none;
-    margin-bottom: 3px;
-    color: #646464;
-
-}
-li::before{
-    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOxJREFUSEvt1E1KA0EUReEvoGswoqDoKiT4sw43ILgAt+HIiTOXoia4CUUFBV2FcqEDTUN3Kp1k1jVqmuKe986rqpENr9GG8w2AhYYHRXNFO7jEbdPZOhTt4hnHuMJ9HbIqYA9POMIrTvGzLkDCZzhoCw+obwf18A+cNCufd9EFuMEDfhuDq2t5wwW+2i5EG+Aad0jAOb6rgH1MKy3vOOsK71I0xgsO8YkJtvBYhUdLBtpaeYmiVJvAnJBUu438K6q8BJA9CcwZTydZxZWXAuqQfBdp6XMP0sFfNY+FL2gfwFKhA2ApXX3fomLIP6n3Jxno6gpUAAAAAElFTkSuQmCC);
-    
-}
-
-.titulo::before{
-    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvdlUEKwjAQRV9A71HvYAV37Um0J1FPop6k3QnWO+hBKpWgCWmTmhFU0G4zfx7/ZyZVfPhTH+7PnwJqyBQsWlgKI6waKOZw6dd7ER0gGcFZ2NiWtXC5Qt6HeIAaVsAaqFLIJaAaSiDTuhQ2riYEaB8FeQqVEKCbl9rFDCaDABNPqDAGOsJZQdLAxI2p48CJx7MaA5xg+xiKjtYC9ORom7FGsXPtXkFh4rUAYzHWQHhuB8R1YC5X2ON5Wcr9lfAACnZTKJz7iAJDmkGAmYJXFi6kGQToZWlgP4bVC0+Fp3kGiEYiKfAA75wid1Hfvgf9Z6a/yXZUjUVJHLqmhqD2uwDnHsRPtXE4pP39f/INOZBlGQOjMK4AAAAASUVORK5CYII=);
-    margin-right:3px;
-    padding:1px;
-}
-
-.titulo {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: black;
-}
-
-
 /*PATROCINIOS*/
 
 .row{
@@ -279,4 +224,21 @@ section {
 
 .icon-endereco h4{
     font-size: 20px;
+}
+
+/*conteudo do site*/
+
+.imagem-direita{
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+.texto-lado-da-imagem{
+    color: #000;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 100px;
+    width: 65%;
 }
